@@ -4,16 +4,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
     gsap.from('.header__nav', {
         y: -1000,
         duration: 1,
+        delay: 3,
     });
 
     gsap.from('.header__logo', {
         x: -1000,
         duration: 1,
+        delay: 3,
     });
 
     gsap.from('.header__contacts', {
         x: 1000,
         duration: 1,
+        delay: 3,
     });
 
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
