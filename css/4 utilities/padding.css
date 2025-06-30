@@ -1,0 +1,13 @@
+/*! css\4 utilities\padding.css */
+
+.padding-page-start {
+    padding: var(--page-up-down) var(--page-left-right) 0 var(--page-left-right);
+}
+
+.padding-page-middle {
+    padding: 0 var(--page-left-right);
+}
+
+.padding-page-end {
+    padding: 0 var(--page-left-right) var(--page-up-down) var(--page-left-right);
+}

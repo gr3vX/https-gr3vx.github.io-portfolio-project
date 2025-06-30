@@ -1,0 +1,35 @@
+/*! css\2 layout\skills.css */
+
+.skills {
+    height: 150vh;
+    width: 100%;
+
+    padding: var(--header-size) var(--page-left-right) var(--page-up-down)
+        var(--page-left-right);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__container {
+    height: 100%;
+    width: 100%;
+    min-width: var(--min-width-md);
+    max-width: var(--max-width-xxl);
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: var(--spacing-xxl);
+}
+
+.skills__container {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.icon-check {
+    
+}

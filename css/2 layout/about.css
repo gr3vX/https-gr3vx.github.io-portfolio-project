@@ -1,0 +1,74 @@
+/*! css\2 layout\about.css */
+
+.about {
+    height: 200vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__container {
+    height: 100%;
+    width: 100%;
+    min-width: var(--min-width-md);
+    max-width: var(--max-width-xxl);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 2fr);
+}
+
+.about__content {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl);
+}
+
+.about__content-block {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: var(--spacing-xl);
+}
+
+.about__content-title {
+    height: 100px;
+    margin-top: 10%;
+}
+
+.about__content-text {
+    height: 100%;
+    width: 80%;
+}
+
+.about__content-img {
+    width: 100%;
+    height: 100%;
+    max-height: 558px;
+
+    padding: var(--spacing-xl);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--bg-primary);
+    border: solid black 3px;
+    border-radius: 15px;
+}
+
+.about__ccman,
+.about__cli {
+    height: auto;
+    width: 60%;
+}

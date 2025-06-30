@@ -1,0 +1,19 @@
+/*! css\style.css */
+
+@import url('./1 settings/base.css');
+@import url('./1 settings/reset.css');
+@import url('./1 settings/typography.css');
+@import url('./1 settings/variables.css');
+
+@import url('./2 layout/header.css');
+@import url('./2 layout/hero.css');
+@import url('./2 layout/about.css');
+@import url('./2 layout/projects.css');
+@import url('./2 layout/studies.css');
+@import url('./2 layout/contacts.css');
+@import url('./2 layout/preloader.css');
+@import url('./2 layout/footer.css');
+
+@import url('./3 components/viewport.css');
+
+@import url('./4 utilities/padding.css');

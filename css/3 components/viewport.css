@@ -1,0 +1,11 @@
+/*! css\3 components\viewport.css */
+
+.viewport {
+    min-height: var(--min-height-sm);
+    max-height: var(--max-height-md);
+
+    padding: var(--header-size) var(--page-left-right) var(--page-up-down)
+        var(--page-left-right);
+
+    scroll-snap-align: start;
+}

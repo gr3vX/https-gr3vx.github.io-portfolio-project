@@ -1,0 +1,76 @@
+/*! css\2 layout\studies.css */
+
+.studies {
+    height: 150vh;
+    width: 100%;
+
+    padding: var(--header-size) var(--page-left-right) var(--page-up-down)
+        var(--page-left-right);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studies__container {
+    height: 100%;
+    width: 100%;
+    min-width: var(--min-width-md);
+    max-width: var(--max-width-xxl);
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: var(--spacing-xxl);
+}
+
+.studies__title {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.studies__check-list {
+    height: 100%;
+    width: 100%;
+    padding: var(--spacing-xxl);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: var(--bg-primary);
+    border: solid black 3px;
+    border-radius: 15px;
+}
+
+.check-list__item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: var(--spacing-xxl);
+}
+
+.check-list__checkbox {
+    height: var(--img-icon-lg);
+    width: var(--img-icon-lg);
+
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.icon-check {
+    height: var(--img-icon-lg);
+    width: var(--img-icon-lg);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+
+.check-list__text {
+    margin: 0;
+}

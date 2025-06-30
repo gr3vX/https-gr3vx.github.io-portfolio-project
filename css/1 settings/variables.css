@@ -1,0 +1,79 @@
+/*! css\1 settings\variables.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* Palette */
+    --primary-color: black;
+    --secondary-color: white;
+    --accent-primary: #fca311;
+    --accent-secondary: blue;
+    --bg-primary: #f1f5f9;
+    --bg-secondary: #0b1223;
+    --fc-primary: black;
+    --fc-secondary: white;
+
+    /* Spacing */
+    --spacing-xxs: 0.25rem; /* 4px */
+    --spacing-xs: 0.5rem; /* 8px */
+    --spacing-sm: 0.75rem; /* 12px */
+    --spacing-md: 1rem; /* 16px */
+    --spacing-lg: 1.5rem; /* 24px */
+    --spacing-xl: 2rem; /* 32px */
+    --spacing-xxl: 2.5rem; /* 40px */
+
+    /* Min Width (per desktop, tablet, mobile) */
+    --min-width-xs: 320px; /* Mobile */
+    --min-width-sm: 576px; /* Tablet Portrait */
+    --min-width-md: 768px; /* Tablet Landscape */
+    --min-width-lg: 1024px; /* Desktop Small */
+    --min-width-xl: 1280px; /* Desktop Medium */
+    --min-width-xxl: 1440px; /* Desktop Large */
+
+    /* Max Width (per limitare la larghezza sui grandi schermi) */
+    --max-width-xs: 375px; /* Mobile */
+    --max-width-sm: 768px; /* Tablet Portrait */
+    --max-width-md: 1024px; /* Tablet Landscape */
+    --max-width-lg: 1200px; /* Desktop Small */
+    --max-width-xl: 1600px; /* Desktop Medium */
+    --max-width-xxl: 1920px; /* Desktop Large */
+
+    /* Min Heights */
+    --min-height-xs: 480px; /* Telefono in landscape */
+    --min-height-sm: 600px; /* Tablet in portrait */
+    --min-height-md: 768px; /* Tablet in landscape */
+    --min-height-lg: 900px; /* Desktop piccoli */
+    --min-height-xl: 1080px; /* Desktop full HD */
+
+    /* Max Heights */
+    --max-height-xs: 600px;
+    --max-height-sm: 700px;
+    --max-height-md: 800px;
+    --max-height-lg: 1080px;
+    --max-height-xl: 1440px;
+
+    /*Padding */
+    --page-up-down: 40px;
+    --page-left-right: 80px;
+    --header-size: 140px;
+
+    /* Font */
+    --logo-font: 'Permanent Marker', cursive;
+    --title-font: 'Poppins', sans-serif;
+    --text-font: 'Montserrat', sans-serif;
+
+    /* --- Image Sizes --- */
+    --img-icon-xs: 15px;
+    --img-icon-sm: 20px;
+    --img-icon-md: 30px;
+    --img-icon-lg: 40px;
+    --img-icon-xl: 50px;
+
+    --img-image-xs: 50px;
+    --img-image-sm: 100px;
+    --img-image-md: 200px;
+    --img-image-lg: 350px;
+    --img-image-xl: 500px;
+}
