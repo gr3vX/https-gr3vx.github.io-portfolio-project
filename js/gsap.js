@@ -61,12 +61,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         if (icon) {
             gsap.to(icon, {
                 autoAlpha: 1,
-                scale: 1,
+                scale: 1.5,
                 duration: 1,
                 ease: 'power2.out',
                 scrollTrigger: {
                     trigger: item,
-                    start: 'top 40%',
+                    start: 'top 70%',
                     toggleActions: 'play none none none',
                     scrub: true,
                 },
